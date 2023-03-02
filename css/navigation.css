@@ -1,0 +1,141 @@
+.navigation {
+  padding: 16px 0px;
+  padding-bottom: 40px;
+}
+
+.navigation-items {
+  display: flex;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.navigation-items a {
+  text-decoration: none;
+  color: #00537a;
+  line-height: 17px;
+}
+
+.navigation-item {
+  margin-right: 13px;
+}
+.class {
+  display: flex;
+  align-items: center;
+}
+
+span {
+  width: 1px;
+  background-color: #bcbcbc;
+  display: block;
+  margin-right: 7px;
+}
+
+.navigation-basket {
+  display: flex;
+  padding: 12px 10px 8px 10px;
+  font-size: 14px;
+  background-color: #e31837;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.navigation-basket img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.cart-wrapper {
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgb(63 93 138 / 30%);
+  position: fixed;
+  z-index: 10;
+  padding: 16px;
+  overflow-y: auto;
+  display: none;
+  top: 100px;
+  right: 0;
+}
+
+.cart-wrapper--visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.cart-total {
+  display: flex;
+  position: static;
+  top: 0;
+  left: 0;
+}
+
+.cart-total p {
+  text-align: center;
+}
+
+.close {
+  margin-left: auto;
+  width: 40px;
+  height: 40px;
+  color: rgba(0, 83, 122, 0.54);
+  font-size: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.total-price {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.cart-wrapper__item {
+  background: rgba(63, 93, 138, 0.04);
+  margin-bottom: 15px;
+  padding: 15px;
+  position: relative;
+}
+
+.item-title {
+  font-size: 14px;
+  color: #43525a;
+  margin-bottom: 15px;
+}
+
+.item-desc {
+  font-size: 14px;
+  color: #99a1a6;
+  margin-bottom: 15px;
+}
+
+.mini-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-item {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.delete-item {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+  color: #43525a;
+}
+
+.header-phone i {
+  color: #00537a;
+  margin-right: 10px;
+  font-size: 20px;
+}

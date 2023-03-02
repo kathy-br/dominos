@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domino's pizza</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-logo">
+                <a href="#">
+                    <img src="./img/logo-dominos.png" alt="logo">
+                </a>
+            </div>
+            <div class="header-info">
+                <h3 class="header-info__delivery">30 минут доставка</h3>
+                <a href="">подробнее</a>
+
+            </div>
+            <div class="header-phone">
+                <i class="fa-solid fa-phone"></i>
+                <h4 class="phone-number">7717</h4>
+            </div>
+            <div class="user-nav">
+                <select name="language" id="language">
+                    <option value="rus">Русский</option>
+                    <option value="eng">English</option>
+                </select>
+
+                <select name="city" id="city">
+                    <option value="city1">Минск</option>
+                    <option value="city2">Барановичи</option>
+                    <option value="city3">Бобруйск</option>
+                    <option value="city4">Брест</option>
+                    <option value="city5">Витебск</option>
+                    <option value="city6">Гомель</option>
+                    <option value="city7">Гродно</option>
+                    <option value="city8">Могилёв</option>
+                    <option value="city9">Мозырь</option>
+                    <option value="city10">Новополоцк</option>
+                    <option value="city11">Солигорск</option>
+
+                </select>
+                <button class="btn">Войти</button>
+            </div>
+        </header>
+    </div>
+
+    <nav class="navigation">
+        <div class="container">
+            <div class="class">
+                <ul class="navigation-items">
+                    <li class="navigation-item">
+                        <a href="">Пицца</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="">Курица</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="">Картофель</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="">Хлебцы</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="">Салаты</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="">Десерты</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="">Напитки</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="">Соусы</a>
+                    </li>
+                    <span></span>
+                    <li class="navigation-item">
+                        <a href="">Акции</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="">Новости</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="">Работа в Domino's</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="">Программа лояльности</a>
+                        <i class="fa-solid fa-recycle"></i>
+                    </li>
+                </ul>
+
+                <button class="navigation-basket">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h4>Корзина: 0 руб.</h4>
+                </button>
+
+                <div class="cart-wrapper">
+                    <div class="cart-total">
+                        <div class="wrapper">
+                            <p data-cart-delivery class="none">
+                            <h4>Сумма заказа:</h4>
+                            <h4 class="total-price">0</h4>
+                            <h4 class="rouble">руб.</h4>
+                            </p>
+                        </div>
+
+                        <button class="close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="slider">
+        <div class="slider-container">
+            <div class="slider__line">
+                <img src="./img/slide 1.png" alt="" class="slider__img">
+                <img src="./img/slide 2.jpg" alt="" class="slider__img">
+                <img src="./img/slide 3.png" alt="" class="slider__img">
+                <img src="./img/slide 4.png" alt="" class="slider__img">
+                <img src="./img/slide 5.jpg" alt="" class="slider__img">
+                <img src="./img/slide 6.jpg" alt="" class="slider__img">
+                <img src="./img/slide 7.jpg" alt="" class="slider__img">
+            </div>
+        </div>
+
+        <div class="slider__wripper">
+            <div class="slider__dot active__dot"></div>
+            <div class="slider__dot"></div>
+            <div class="slider__dot"></div>
+            <div class="slider__dot"></div>
+            <div class="slider__dot"></div>
+            <div class="slider__dot"></div>
+            <div class="slider__dot"></div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="container">
+        <h4 class="slider-mini__desc">Акции дня</h4>
+        <div class="slider-mini">
+
+
+            <i id="left" class="fa-solid fa-arrow-left"></i>
+            <div class="slider-mini__line">
+                <div class="slider-mini__item">
+                    <img src="./img/pic 1.png" alt="">
+                    <div class="slider-mini__info">
+                        <h4 class="slider-mini__title">СЕМЕЙНОЕ ПРЕДЛОЖЕНИЕ ЗА 29,49!</h4>
+                        <p class="slider-mini__text">Пицца из категории ЛЮБИМЫЕ большого размера + байтсы + напиток на
+                            выбор (1 л/ 0,9 л) - всего за 29,49 с ДОСТАВКОЙ!</p>
+                    </div>
+
+                </div>
+
+                <div class="slider-mini__item">
+                    <img src="./img/конструктор_комбо_5_пицц_9pq5gX1.png" alt="">
+                    <div class="slider-mini__info">
+                        <h4 class="slider-mini__title">5 ПИЦЦ ПО ЦЕНЕ 75,99</h4>
+                        <p class="slider-mini__text">В любой день недели заказывайте 5 пицц среднего размера из
+                            представленного ассортимента пицц на классике/ тонком тесте
+                            со скидкой до 66 руб. по СУПЕРЦЕНЕ - 75,99!</p>
+                    </div>
+
+                </div>
+                <div class="slider-mini__item">
+                    <img src="./img/конструктор_комбо_10_пицц_YOILOrT.png" alt="">
+                    <div class="slider-mini__info">
+                        <h4 class="slider-mini__title">10 ПИЦЦ ПО ЦЕНЕ 144,99</h4>
+                        <p class="slider-mini__text">В любой день недели заказывайте 10 пицц среднего размера из
+                            представленного ассортимента пицц на классике/ тонком тесте
+                            со скидкой до139 руб. по СУПЕРЦЕНЕ - 144,99!</p>
+                    </div>
+
+                </div>
+
+                <div class="slider-mini__item">
+                    <img src="./img/Lucky_kombo_конструктор.jpg" alt="">
+                    <div class="slider-mini__info">
+                        <h4 class="slider-mini__title">LUCKY COMBO</h4>
+                        <p class="slider-mini__text">Заказывайте на самовывоз/доставку 2 пиццы среднего размера из
+                            категорий
+                            «Классические» и «Любимые» + Картофель Фри из
+                            печи и платите фиксированную стоимость 39.99 руб.</p>
+                    </div>
+
+                </div>
+
+                <div class="slider-mini__item">
+                    <img src="./img/veggy_02-23_конструктор.jpg" alt="">
+                    <div class="slider-mini__info">
+                        <h4 class="slider-mini__title">VEGGI COMBO</h4>
+                        <p class="slider-mini__text">Заказывайте на самовывоз/доставку 2 пиццы среднего размера на выбор
+                            (5
+                            сыров, Грибная с голубым сыром, Овощная,
+                            Маргарита) + 1л напитка на выбор (Кока-Кола, Фанта, Спрайт в ассортименте), платите
+                            фиксированную стоимость 32.99 руб.</p>
+                    </div>
+
+                </div>
+
+                <div class="slider-mini__item">
+                    <img src="./img/КА_люкс_комбо_312х312_dDB4nVM.png" alt="">
+                    <div class="slider-mini__info">
+                        <h4 class="slider-mini__title">ЛЮКС комбо за 35,99!</h4>
+                        <p class="slider-mini__text">Комплекс с доставкой по суперцене 35,99: пицца категории ЛЮБИМЫЕ
+                            большого размера с сырным бортом/ HOT DOG бортом +
+                            сладкие роллы + НАПИТОК (1 л/ 0,9 л) на выбор!</p>
+                    </div>
+
+                </div>
+
+                <div class="slider-mini__item">
+                    <img src="./img/конструктор_комбо_7_пицц_yAM4zCO.png" alt="">
+                    <div class="slider-mini__info">
+                        <h4 class="slider-mini__title">7 ПИЦЦ ПО ЦЕНЕ 99,99</h4>
+                        <p class="slider-mini__text">В любой день недели заказывайте 7 пицц среднего размера из
+                            представленного ассортимента пицц на классике/ тонком тесте
+                            со скидкой до 99 руб. по СУПЕРЦЕНЕ - 99,99!</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+            <i id="right" class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+
+
+    <div class="product-cards">
+        <div class="container">
+            <h4 class="slider-mini__desc">Пицца</h4>
+            <div class="product-cards__content">
+                <div class="product-card" data-id="01">
+                    <div class="product-card__img">
+                        <img class="product-img" src="./img/Mitbollo.png" alt="Mitbollo">
+                    </div>
+                    <span>От 18.49 руб.</span>
+                    <h4 class="product-card__title">Митболло</h4>
+                    <p class="product-card__desc">Соус бургер, митболы из говядины, огурцы, сыр моцарелла, курица, лук,
+                        сладкий перец</p>
+                    <div class="product-card__size">
+                        <select name="size" id="size">
+                            <option value="average">Средняя</option>
+                            <option value="small">Маленькая</option>
+                            <option value="big">Большая</option>
+                        </select>
+
+                        <select name="dough" id="dough">
+                            <option value="classick">Классика</option>
+                            <option value="thin">Тонкое</option>
+                            <option value="hot-dog">Хот-Дог борт</option>
+                            <option value="cheese">Сырный борт</option>
+
+                        </select>
+                    </div>
+                    <div class="product-card__additional">
+                        <div class="product-card__additional-price">
+                            <h4 class="price">25.49 руб.</h4>
+                            <h5 class="weight">605 гр</h5>
+                        </div>
+
+                        <button data-cart type="button" class="add__btn">В корзину</button>
+                    </div>
+
+                    <div class="items_count-wrapper">
+                        <div class="items__control" data-action="minus">-</div>
+                        <div class="items__current" data-counter>1</div>
+                        <div class="items__control" data-action="plus">+</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal">
+
+    </div>
+
+
+
+
+    </div>
+    <script type="module" src="./js/modal.js"></script>
+    <script src="./js/popup.js"></script>
+    <script src="./js/calcCartPrice.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="https://kit.fontawesome.com/4afe4a9f43.js" crossorigin="anonymous"></script>
+    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/pizza.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+.container {
+  padding: 0 24px;
+  max-width: 1430px;
+  margin: 0 auto;
+}
+
+.header-logo img {
+  width: 150px;
+  height: 34px;
+}
+
+.header-logo {
+  padding-bottom: 12px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header-info__delivery {
+  font-size: 24px;
+  line-height: 1em;
+  font-weight: 700;
+  color: #00537a;
+}
+
+.header-info a {
+  font-size: 12px;
+  color: #99a1a6;
+}
+
+.phone-number {
+  font-size: 24px;
+  color: #00537a;
+}
+
+.user-nav select {
+  width: 84px;
+  height: 36px;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+}
+
+select {
+  font-size: 14px;
+  color: #00537a;
+}
+
+.btn {
+  width: 110px;
+  height: 37px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0079ae;
+  color: white;
+}
+
+.header-phone {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-basket i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.navigation-item i {
+  color: green;
+  margin-left: 5px;
+}

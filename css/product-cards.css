@@ -1,0 +1,131 @@
+.product-cards {
+  background-color: #f7fcff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.product-card {
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 10px;
+  /*height: 625px;*/
+  width: 314px;
+  box-shadow: 0 0 10px rgba(215, 207, 207, 0.5);
+  position: relative;
+  cursor: pointer;
+}
+
+.product-card__img {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.product-card span {
+  display: block;
+  background: linear-gradient(90deg, #155ccf, #00a2e6);
+  padding: 8px 12px;
+  border-radius: 16px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  width: 100px;
+  position: absolute;
+  top: 210px;
+  right: 12px;
+  z-index: 1;
+}
+
+.product-card__title {
+  text-align: center;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #43525a;
+}
+
+.product-card__desc {
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #99a1a6;
+  margin-bottom: 6px;
+}
+
+.product-card__size {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.product-card__size select {
+  width: 120px;
+  height: 36px;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+}
+
+.product-card__additional {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add__btn {
+  background: #e31837;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.product-card__additional-price {
+  font-size: 14px;
+  line-height: 16px;
+  color: #43525a;
+}
+
+.product-card {
+  margin-bottom: 30px;
+}
+
+.product-cards__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.product-card__additional {
+  margin-bottom: 10px;
+}
+
+.items_count-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.items__control {
+  background-color: #e21837;
+  border-radius: 5px 0 0 5px;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  color: #fff;
+  font-size: 14px;
+  line-height: 36px;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+}
+
+.items__current {
+  border: 1px solid #d8d4d4;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+}
+
+div[data-action="plus"] {
+  border-radius: 0 5px 5px 0;
+}
